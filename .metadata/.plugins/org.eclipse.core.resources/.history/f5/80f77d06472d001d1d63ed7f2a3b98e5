@@ -1,0 +1,28 @@
+package ConversorMoneda;
+
+public class PesoSeleccionado {
+	
+	public static Double dolar() {
+		Double peso = 0.00344;
+		return peso;
+	}
+	public static Double real() {
+		Double real = 27.0;
+		return real;
+	}
+	public static Double euro() {
+		return 295.0;
+	}
+	public static Double libra() {
+		Double libra = 270.0;
+		return libra;
+	}
+	public static Double yen() {
+		Double yen = 165.0;
+		return yen;
+	}
+	public static Double wonKorearo() {
+		Double wonKorearo = 16.2;
+		return wonKorearo;
+	}
+}

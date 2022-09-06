@@ -1,0 +1,17 @@
+package Principal;
+
+import javax.swing.*;
+
+public class Principal {
+
+	public static void main(String[] args) {
+		
+		while(true) {
+			String option = (String) JOptionPane.showInputDialog(null, "Seleccione una opcion de conversion", "OPCIONES",JOptionPane.QUESTION_MESSAGE, null, new Object[] {"Selecione", "Moneda","Temperatura"},"Selecione");
+		switch (option) {
+		case "Moneda":
+			System.out.println("Buen chico");
+		}
+		}
+	}
+}

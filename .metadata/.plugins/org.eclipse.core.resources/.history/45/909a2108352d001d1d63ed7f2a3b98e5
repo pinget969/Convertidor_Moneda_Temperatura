@@ -1,0 +1,13 @@
+package ConversorMoneda;
+
+public class EuroSeleccionado {
+	public static Double LibraEsterlina() {
+		return 	0.86;
+	}
+	public static Double yen() {
+		return 	0.86;
+	}
+	public static Double wonKorearo() {
+		return 	0.86;
+	}
+}

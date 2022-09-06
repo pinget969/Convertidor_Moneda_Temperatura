@@ -1,0 +1,21 @@
+package ConversorMoneda;
+
+public class DolarSeleccionado {
+		final double real = 500;
+		final double fff = 500;
+		double libra;
+		public double getLibra() {
+			return libra;
+		}
+		public void setLibra(double libra) {
+			this.libra = libra;
+		}
+		public static double getReal() {
+			return real;
+		}
+		public double getFff() {
+			return fff;
+		}		
+		
+		
+	}

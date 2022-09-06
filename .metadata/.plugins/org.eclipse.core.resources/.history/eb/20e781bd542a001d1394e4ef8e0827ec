@@ -1,0 +1,9 @@
+package ConversorMoneda;
+
+public class ConvertirMonedas {
+	
+		double MonedaDolar = 300;
+	 
+	
+}
+

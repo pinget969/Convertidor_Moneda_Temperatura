@@ -1,3 +1,4 @@
 INDEX VERSION 1.131+C:\Users\Pinget\Desktop\Programacion\One\DesafiosEntregados\ConvertidorMonedaTemperatura\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index
 806492275.index
 366216794.index

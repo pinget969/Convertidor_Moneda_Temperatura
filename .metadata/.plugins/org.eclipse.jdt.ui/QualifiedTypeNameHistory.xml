@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.lang.Object"/>
+    <fullyQualifiedTypeName name="ConversorMoneda.ConvertirMonedas"/>
+    <fullyQualifiedTypeName name="ConversorMoneda.TestconvertidorMoneda"/>
+    <fullyQualifiedTypeName name="ConversorMoneda.MonedaSeleccionada"/>
+    <fullyQualifiedTypeName name="ConversorMoneda.DolarSeleccionado"/>
+    <fullyQualifiedTypeName name="ConversorMoneda.EuroSeleccionado"/>
+    <fullyQualifiedTypeName name="ConversorMoneda.WonKoreanoSeleccionado"/>
+    <fullyQualifiedTypeName name="ConversorMoneda.RealSeleccionado"/>
+    <fullyQualifiedTypeName name="ConversorMoneda.yenSeleccionado"/>
+    <fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
+</qualifiedTypeNameHistroy>

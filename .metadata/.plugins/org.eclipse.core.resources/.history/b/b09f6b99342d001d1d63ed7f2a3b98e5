@@ -1,0 +1,131 @@
+package ConversorMoneda;
+
+public class TestconvertidorMoneda {
+
+	public static void convertir(Moneda moneda) {
+
+		if(moneda.getTipo().equals("Peso")) {
+			switch (moneda.getTipo2()) {
+			case "Dolar":
+				double PesoADolar = moneda.getMonto() / PesoSeleccionado.peso();
+				System.out.println(PesoADolar);
+				break;
+				
+			case "Real":
+				double PesoAReal = moneda.getMonto() / PesoSeleccionado.real();
+				System.out.println(PesoAReal);
+				break;
+			case "Euro":
+				double PesoAEuro = moneda.getMonto() / PesoSeleccionado.euro();
+				System.out.println(PesoAEuro);
+				break;
+			case "libra esterlina":
+				double PesoALibraEsterlina = moneda.getMonto() / PesoSeleccionado.libra();
+				System.out.println(PesoALibraEsterlina);
+				break;
+			case "Yen":
+				double PesoAYen = moneda.getMonto() / PesoSeleccionado.yen();
+				System.out.println(PesoAYen);
+				break;
+			case "Won Koreano":
+				double PesoAWonKoreano = moneda.getMonto() / PesoSeleccionado.wonKorearo();
+				System.out.println(PesoAWonKoreano);
+				break;
+			default:
+				break;
+			}
+		}
+		if(moneda.getTipo().equals("Dolar")) {
+			switch (moneda.getTipo2()) {
+			case "Peso":
+				double DolarAPeso = moneda.getMonto() * PesoSeleccionado.peso();
+				System.out.println(DolarAPeso);
+				break;
+			case "Real":
+				double DolarAReal = moneda.getMonto() * DolarSeleccionado.real();
+				System.out.println(DolarAReal);
+				break;
+			case "Euro":
+				double DolarAEuro = moneda.getMonto() * DolarSeleccionado.euro();
+				System.out.println(DolarAEuro);
+				break;
+			case "Libra esterlina":
+				double DolarALibraEsterlina = moneda.getMonto() * DolarSeleccionado.libra();
+				System.out.println(DolarALibraEsterlina);
+				break;
+			case "Yen":
+				double DolarAYen = moneda.getMonto() * DolarSeleccionado.yen();
+				System.out.println(DolarAYen);
+				break;
+			case "Won Koreano":
+				double DolarAWonKoreano = moneda.getMonto() * DolarSeleccionado.wonKorearo();
+				System.out.println(DolarAWonKoreano);
+				break;
+			default:
+				break;
+			}
+		}
+		if(moneda.getTipo().equals("Real")) {
+			switch (moneda.getTipo2()) {
+			case "Peso":
+				double RealAPeso = moneda.getMonto() * PesoSeleccionado.real();
+				System.out.println(RealAPeso);
+				break;
+			case "Dolar":
+				double RealADolar = moneda.getMonto() * DolarSeleccionado.real();
+				System.out.println(RealADolar);
+				break;
+			case "Euro":
+				double RealAEuro = moneda.getMonto() * RealSeleccionado.euro();
+				System.out.println(RealAEuro);
+				break;
+			case "Libra esterlina":
+				double RealALibraEsterlina = moneda.getMonto() * RealSeleccionado.libra();
+				System.out.println(RealALibraEsterlina);
+				break;
+			case "Yen":
+				double RealAYen = moneda.getMonto() * RealSeleccionado.yen();
+				System.out.println(RealAYen);
+				break;
+			case "Won Koreano":
+				double RealAWonKoreano = moneda.getMonto() * RealSeleccionado.wonKorearo();
+				System.out.println(RealAWonKoreano);
+				break;
+			default:
+				break;
+			}
+		}
+		if(moneda.getTipo().equals("Euro")) {
+			switch (moneda.getTipo2()) {
+			case "Peso":
+				double RealAPeso = moneda.getMonto() * PesoSeleccionado.euro();
+				System.out.println(RealAPeso);
+				break;
+			case "Dolar":
+				double EuroADolar = moneda.getMonto() * DolarSeleccionado.euro();
+				System.out.println(EuroADolar);
+				break;
+			case "Real":
+				double RealAEuro = moneda.getMonto() * RealSeleccionado.euro();
+				System.out.println(RealAEuro);
+				break;
+			case "Libra esterlina":
+				double RealALibraEsterlina = moneda.getMonto() * RealSeleccionado.libra();
+				System.out.println(RealALibraEsterlina);
+				break;
+			case "Yen":
+				double RealAYen = moneda.getMonto() * RealSeleccionado.yen();
+				System.out.println(RealAYen);
+				break;
+			case "Won Koreano":
+				double RealAWonKoreano = moneda.getMonto() * RealSeleccionado.wonKorearo();
+				System.out.println(RealAWonKoreano);
+				break;
+			default:
+				break;
+			}
+		}
+		
+	}
+}
+
