@@ -1,0 +1,24 @@
+package ConvertorTemperatura;
+
+public class TestconvertidorTemperatura {
+
+	
+	public static void convertidor(FormulaConvertidorTemperatura formulaConvertidorTemperatura) {
+		
+		if(formulaConvertidorTemperatura.getOpcion1() == "Grados Celsius") {
+			
+			switch (formulaConvertidorTemperatura.getOpcion2()) {
+			case "Grado Fahrenheit":
+				
+				break;
+			case "Kelvin":
+				
+				break;
+
+			default:
+				break;
+			}
+		}
+	
+	}
+}

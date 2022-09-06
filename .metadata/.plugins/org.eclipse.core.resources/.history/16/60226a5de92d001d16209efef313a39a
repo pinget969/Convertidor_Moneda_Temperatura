@@ -1,0 +1,11 @@
+package ConvertorTemperatura;
+
+public class Testconvertidor {
+
+	
+	
+	public Testconvertidor() {
+		FormulaConvertidorTemperatura convTemperatura = new FormulaConvertidorTemperatura();
+		convTemperatura.celsius = (double) 5;
+	}
+}

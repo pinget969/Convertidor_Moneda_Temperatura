@@ -1,0 +1,10 @@
+package ConvertorTemperatura;
+
+public class Testconvertidor {
+
+	
+	public static void convertidor(FormulaConvertidorTemperatura formulaConvertidorTemperatura) {
+		
+	
+
+}

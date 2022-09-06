@@ -1,0 +1,39 @@
+package ConvertorTemperatura;
+
+public class TestconvertidorTemperatura {
+
+	
+	public static void convertidor(FormulaConvertidorTemperatura formulaConvertidorTemperatura) {
+		
+		if(formulaConvertidorTemperatura.getOpcion1() == "Grados Celsius") {
+			
+			switch (formulaConvertidorTemperatura.getOpcion2()) {
+			case "Grado Fahrenheit":
+				System.out.println((formulaConvertidorTemperatura.getValor()*9/5)+32);
+				break;
+			case "Kelvin":
+				System.out.println(formulaConvertidorTemperatura.getValor()+273.15);
+				break;
+
+			default:
+				break;
+			}
+		}
+		if(formulaConvertidorTemperatura.getOpcion1() == "Grado Fahrenheit") {
+
+			switch (formulaConvertidorTemperatura.getOpcion2()) {
+			case "Grados Celsius":
+				System.out.println((formulaConvertidorTemperatura.getValor()-32)*5/9);
+				break;
+			case "Kelvin":
+				System.out.println((formulaConvertidorTemperatura.getValor()-32)*5/9+273.15);
+				break;
+
+			default:
+				break;
+			}
+		}
+		
+	
+	}
+}

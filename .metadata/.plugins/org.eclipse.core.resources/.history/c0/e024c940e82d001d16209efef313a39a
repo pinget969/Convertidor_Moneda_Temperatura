@@ -1,0 +1,11 @@
+package ConvertorTemperatura;
+
+public class FormulaConvertidorTemperatura {
+	Double celsius;
+	Double fahrenheit;
+	Double kelvin;
+}
+
+	public FormulaConvertidorTemperatura() {
+		
+	}

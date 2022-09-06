@@ -1,0 +1,36 @@
+package ConvertorTemperatura;
+
+public class FormulaConvertidorTemperatura {
+	String celsius;
+	String fahrenheit;
+	String kelvin;
+	
+	public FormulaConvertidorTemperatura() {
+	}
+
+	public String getCelsius() {
+		return celsius;
+	}
+
+	public void setCelsius(String celsius) {
+		this.celsius = celsius;
+	}
+
+	public String getFahrenheit() {
+		return fahrenheit;
+	}
+
+	public void setFahrenheit(String fahrenheit) {
+		this.fahrenheit = fahrenheit;
+	}
+
+	public String getKelvin() {
+		return kelvin;
+	}
+
+	public void setKelvin(String kelvin) {
+		this.kelvin = kelvin;
+	}
+
+
+}
