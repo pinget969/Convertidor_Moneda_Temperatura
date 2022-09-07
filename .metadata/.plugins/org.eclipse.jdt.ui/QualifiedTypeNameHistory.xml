@@ -15,4 +15,7 @@
     <fullyQualifiedTypeName name="ConversorMoneda.TestconvertidorMoneda"/>
     <fullyQualifiedTypeName name="ConvertorTemperatura.FormulaConvertidorTemperatura"/>
     <fullyQualifiedTypeName name="ConvertorTemperatura.TestconvertidorTemperatura"/>
+    <fullyQualifiedTypeName name="java.lang.Boolean"/>
+    <fullyQualifiedTypeName name="java.io.DataOutputStream"/>
+    <fullyQualifiedTypeName name="java.lang.Math"/>
 </qualifiedTypeNameHistroy>
