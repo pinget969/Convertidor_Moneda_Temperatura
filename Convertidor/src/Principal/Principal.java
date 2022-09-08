@@ -2,17 +2,21 @@ package Principal;
 
 import javax.swing.*;
 
+
 import ConversorMoneda.Moneda;
 import ConversorMoneda.TestconvertidorMoneda;
 import ConvertorTemperatura.FormulaConvertidorTemperatura;
 import ConvertorTemperatura.TestconvertidorTemperatura;
-
+/**
+ * 
+ * @author Pinget
+ *
+ */
 public class Principal {
 
 	public static void main(String[] args) {
 		while (true) {
-
-			String moneda2 = "Seleccione";
+ 		String moneda2 = "Seleccione";
 
 			String eleccion = (String) JOptionPane.showInputDialog(null, "Seleccione una opcion", "OPCIONES",
 					JOptionPane.QUESTION_MESSAGE, null,
@@ -107,9 +111,9 @@ public class Principal {
 			}
 		}
 	}
-	
+ 
 	private static boolean validarNumeros(String input) {
-
+ 
 		return input.matches("^-?[0-9]+$");
 	}
 

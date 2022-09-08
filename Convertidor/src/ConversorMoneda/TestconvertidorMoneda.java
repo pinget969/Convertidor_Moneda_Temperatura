@@ -2,7 +2,10 @@ package ConversorMoneda;
 
 import javax.swing.JOptionPane;
 public class TestconvertidorMoneda {
-
+/**
+ * 
+ * @param moneda
+ */
 	public static void convertir(Moneda moneda) {
 		if(moneda.getTipo().equals("Peso")) {
 			switch (moneda.getTipo2()) {
