@@ -1,5 +1,5 @@
 # Convertidor_Moneda_Temperatura
-Proyecto de Oracle-One Netx Education junto con Alura Latam
+Proyecto de Oracle-One Netx Education junto con Alura Latam. <br />
 Moneda:
 [![1.jpg](https://i.postimg.cc/zX1mbh0y/1.jpg)](https://postimg.cc/V54Z2Jyw)
 [![2.jpg](https://i.postimg.cc/xCCfZzWf/2.jpg)](https://postimg.cc/2qsNbVkM)
