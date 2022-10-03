@@ -80,6 +80,7 @@ public class Principal {
 				} else if (temperatura1 == "Seleccione" || temperatura2 == "Seleccione") {
 					JOptionPane.showMessageDialog(null, "Eleccción Invalida");
 				}
+
 				else {
 					String input = JOptionPane.showInputDialog(null, "Ingrese un valor");
 					while (true) {

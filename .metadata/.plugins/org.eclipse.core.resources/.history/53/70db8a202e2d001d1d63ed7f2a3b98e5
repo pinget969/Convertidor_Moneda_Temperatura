@@ -1,8 +1,0 @@
-package ConversorMoneda;
-
-public class DolarSeleccionado {
-		
-	public static Double euro() {
-		return 1.01;
-		}
-	}

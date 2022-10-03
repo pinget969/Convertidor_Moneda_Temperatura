@@ -1,9 +1,0 @@
-package ConversorMoneda;
-
-public class ConvertirMonedas {
-	
-	public void convertirMoneda(double valor) {
-		double MonedaDolar = 300 - valor;
-	}	
-	
-}

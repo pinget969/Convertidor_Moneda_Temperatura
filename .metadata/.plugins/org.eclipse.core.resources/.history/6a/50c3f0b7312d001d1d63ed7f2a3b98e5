@@ -1,7 +1,0 @@
-package ConversorMoneda;
-
-public class RealSeleccionado {
-	public static Double euro(){
-		return 5.13;
-	}
-}

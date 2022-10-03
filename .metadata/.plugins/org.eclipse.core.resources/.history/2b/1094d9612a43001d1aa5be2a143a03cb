@@ -73,14 +73,20 @@ public class Principal {
 							"OPCIONES", JOptionPane.QUESTION_MESSAGE, null,
 							new Object[] { "Seleccione", "Grados Celsius", "Grado Fahrenheit", "Kelvin" },
 							"Seleccione");
-				}
-				if (temperatura1 == null) {
+					System.out.println("revisando t  "+ temperatura1 + temperatura2);
+					
+
+				} else if (temperatura1 == null) {
 					JOptionPane.showMessageDialog(null, "Cancelado");
 
-				} else if (temperatura1 == "Seleccione" || temperatura2 == "Seleccione") {
+				} else if (temperatura2 == "Seleccione") {
+					//temperatura1 == "Seleccione" || 
 					JOptionPane.showMessageDialog(null, "Eleccción Invalida");
+					
 				}
+
 				else {
+					System.out.println("ALGO POR AQUI... valor 1 ");
 					String input = JOptionPane.showInputDialog(null, "Ingrese un valor");
 					while (true) {
 						if (validarNumeros(input)) {
@@ -95,10 +101,10 @@ public class Principal {
 						}
 					}
 				}
-			} /*else if (eleccion == "Seleccione") {
+			} else if (eleccion == "Seleccione") {
 
 				JOptionPane.showMessageDialog(null, "Eleccción Invalida");
-			}*/ else {
+			} else {
 				JOptionPane.showMessageDialog(null, "Fin de programa");
 				break;
 			}

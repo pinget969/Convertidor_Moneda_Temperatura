@@ -1,7 +1,0 @@
-package ConversorMoneda;
-
-public class WonKoreanoSeleccionado {
-	public statid Double yen() {
-		return 0.10;
-	}
-}

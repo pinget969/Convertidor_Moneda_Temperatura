@@ -1,7 +1,0 @@
-package ConversorMoneda;
-
-public class EuroSeleccionado {
-	public static Double LibraEsterlina() {
-		return 	0.86;
-	}
-}

@@ -1,8 +1,0 @@
-package ConversorMoneda;
-
-public class DolarSeleccionado {
-	public void double dolarValor() {
-		double real = 1.01;
-		
-	}
-}
